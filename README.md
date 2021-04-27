@@ -4,7 +4,7 @@
     Presentación Proyecto Tictactoe Montechelo
 </p>
 
-## Comandos para ejecución
+## Comandos para ejecución 🔧
 
 ```
     // Instalación de paquetes
@@ -23,33 +23,36 @@
     php artisan serve
 ```
 
-## Entregables
+## Entregables 📋
 
-Patrones de Software: para cada ítem se requiere una definición breve y un
-ejemplo de una situación donde se deba usar.
-
-Patrones de Software: para cada ítem se requiere una definición breve y un
+__Patrones de Software: para cada ítem se requiere una definición breve y un
 ejemplo de una situación donde se deba usar.
 
 
+```
+Singleton es un patrón de diseño creacional que garantiza que tan solo exista 
+un objeto de su tipo y proporciona un único punto de acceso a él para cualquier otro código.
+```
 
- Se debe realizar una aplicación Laravel, esta debe tener migraciones y semillas.
- La pantalla inicial debe presentar dos opciones: Nueva partida o unirse a partida
- Si se da en nueva partida debe generar un id de partida (valido para un solo usuario
+```
+__Se debe realizar una aplicación Laravel, esta debe tener migraciones y semillas.
+
+__La pantalla inicial debe presentar dos opciones: Nueva partida o unirse a partida
+__Si se da en nueva partida debe generar un id de partida (valido para un solo usuario
 que lo utilice), si la opción es Unirse a partida debe presentar un cuadro de texto para
 ingresar el id
- Debe tener un espacio editable para poner el nombre del jugador y por defecto
+__Debe tener un espacio editable para poner el nombre del jugador y por defecto
 llenarlo con “Jugador 1” al creador y “Jugador 2” al invitado (Debe ser visible y no
 editable el nombre del contrincante)
- Cada jugador puede jugar en su respectivo turno, la partida inicia por el jugador 1 la
+__Cada jugador puede jugar en su respectivo turno, la partida inicia por el jugador 1 la
 primera vez y cada vez que se reinicie debe iniciar el otro jugador (Se deben alternar
 por nuevas partidas)
- No se puede sobrescribir sobre un campo ya jugado previamente
- No debe haber confirmación de movimiento (si se equivocó poniendo la figura, queda
+__No se puede sobrescribir sobre un campo ya jugado previamente
+__No debe haber confirmación de movimiento (si se equivocó poniendo la figura, queda
 como está)
- El juego termina cuando todas las casillas estén llenas o existan 3 figuras iguales en
+__El juego termina cuando todas las casillas estén llenas o existan 3 figuras iguales en
 línea recta
- Debe existir un botón de reiniciar la partida que solo aparece cuando el juego ha
+__Debe existir un botón de reiniciar la partida que solo aparece cuando el juego ha
 finalizado.
- Se debe poder jugar en dos navegadores
- Debe realizar el front end utilizando si es posible hojas de estilos
+__Se debe poder jugar en dos navegadores
+__Debe realizar el front end utilizando si es posible hojas de estilos
